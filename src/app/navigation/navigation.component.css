@@ -1,0 +1,22 @@
+.spacer {
+  flex: 1 1 auto;
+  padding: 0.5em;
+}
+.toolbar {
+  background-color: #303030;
+  color: #fff;
+  padding: 1.5em;
+}
+.toolbar a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1em;
+}
+.toolbar span {
+  padding: 0.5em;
+}
+.icon {
+  background-color: #505050;
+  margin: 0.2rem;
+  color: #fff;
+}
