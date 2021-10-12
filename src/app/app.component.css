@@ -1,0 +1,8 @@
+.nav {
+  position: sticky;
+}
+.main {
+  position: relative;
+  margin: 1rem;
+  display: flex;
+}

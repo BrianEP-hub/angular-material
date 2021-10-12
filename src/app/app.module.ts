@@ -13,9 +13,10 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { NavigationComponent } from './navigation/navigation.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
-  declarations: [AppComponent, NavigationComponent],
+  declarations: [AppComponent, NavigationComponent, MainComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
