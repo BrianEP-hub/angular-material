@@ -20,8 +20,8 @@ import { MainComponent } from './main/main.component';
   declarations: [AppComponent, NavigationComponent, MainComponent],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule,
     HttpClientModule,
+    BrowserAnimationsModule,
     LayoutModule,
     MatToolbarModule,
     MatButtonModule,
