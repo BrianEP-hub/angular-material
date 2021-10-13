@@ -4,6 +4,8 @@
 .main {
   margin: 1rem;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .example-card {
@@ -11,7 +13,7 @@
   margin: 0.5em;
 }
 .cards {
-  display: flex;
+  justify-content: space-between;
   padding: 1rem;
   background-color: #303030;
   color: #fff;
