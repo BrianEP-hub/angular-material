@@ -6,3 +6,13 @@
   display: flex;
   justify-content: center;
 }
+.example-card {
+  max-width: 400px;
+  margin: 0.5em;
+}
+.cards {
+  display: flex;
+  padding: 1rem;
+  background-color: #303030;
+  color: #fff;
+}
