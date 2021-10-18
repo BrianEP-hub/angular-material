@@ -3,6 +3,7 @@
   padding: 0.5em;
 }
 .toolbar {
+  position: sticky;
   background-color: #303030;
   color: #fff;
   padding: 1.5em;

@@ -14,12 +14,23 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { NavigationComponent } from './navigation/navigation.component';
+import { NewsComponent } from './news/news.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { Routes, RouterModule } from '@angular/router';
+import { RoutingModule } from './routing/routing.module';
+
+const routes: Routes = [];
 
 @NgModule({
-  declarations: [AppComponent, NavigationComponent],
+  declarations: [AppComponent, NavigationComponent, NewsComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
+    ReactiveFormsModule,
+    RouterModule.forRoot([
+      { path: 'news', component: NewsComponent },
+      //{path: 'users', component: UserComponent}
+    ]),
     BrowserAnimationsModule,
     LayoutModule,
     MatToolbarModule,
@@ -30,6 +41,7 @@ import { NavigationComponent } from './navigation/navigation.component';
     MatGridListModule,
     MatCardModule,
     MatMenuModule,
+    RoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
